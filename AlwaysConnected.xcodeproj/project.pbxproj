@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51C1CBE1AE02766006A6845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C1CBD1AE02766006A6845 /* AppDelegate.swift */; };
+		F51C1CC01AE02766006A6845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C1CBF1AE02766006A6845 /* ViewController.swift */; };
+		F51C1CC31AE02766006A6845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CC11AE02766006A6845 /* Main.storyboard */; };
+		F51C1CC51AE02766006A6845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CC41AE02766006A6845 /* Images.xcassets */; };
+		F51C1CC81AE02766006A6845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CC61AE02766006A6845 /* LaunchScreen.xib */; };
+		F51C1CD41AE02766006A6845 /* AlwaysConnectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C1CD31AE02766006A6845 /* AlwaysConnectedTests.swift */; };
+		F51C1CDE1AE100E5006A6845 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C1CDD1AE100E5006A6845 /* GetData.swift */; };
+		F51C1CE01AE119E6006A6845 /* DataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C1CDF1AE119E6006A6845 /* DataStruct.swift */; };
+		F51C1CE21AE12514006A6845 /* TimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C1CE11AE12514006A6845 /* TimePickerViewController.swift */; };
+		F51C1CE41AE12C70006A6845 /* SwipeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C1CE31AE12C70006A6845 /* SwipeBack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F51C1CCE1AE02766006A6845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51C1CB01AE02766006A6845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51C1CB71AE02766006A6845;
+			remoteInfo = AlwaysConnected;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F51C1CB81AE02766006A6845 /* AlwaysConnected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlwaysConnected.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51C1CBC1AE02766006A6845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51C1CBD1AE02766006A6845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F51C1CBF1AE02766006A6845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F51C1CC21AE02766006A6845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F51C1CC41AE02766006A6845 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F51C1CC71AE02766006A6845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F51C1CCD1AE02766006A6845 /* AlwaysConnectedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlwaysConnectedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51C1CD21AE02766006A6845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51C1CD31AE02766006A6845 /* AlwaysConnectedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysConnectedTests.swift; sourceTree = "<group>"; };
+		F51C1CDD1AE100E5006A6845 /* GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		F51C1CDF1AE119E6006A6845 /* DataStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStruct.swift; sourceTree = "<group>"; };
+		F51C1CE11AE12514006A6845 /* TimePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePickerViewController.swift; sourceTree = "<group>"; };
+		F51C1CE31AE12C70006A6845 /* SwipeBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeBack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51C1CB51AE02766006A6845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C1CCA1AE02766006A6845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51C1CAF1AE02766006A6845 = {
+			isa = PBXGroup;
+			children = (
+				F51C1CBA1AE02766006A6845 /* AlwaysConnected */,
+				F51C1CD01AE02766006A6845 /* AlwaysConnectedTests */,
+				F51C1CB91AE02766006A6845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51C1CB91AE02766006A6845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1CB81AE02766006A6845 /* AlwaysConnected.app */,
+				F51C1CCD1AE02766006A6845 /* AlwaysConnectedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51C1CBA1AE02766006A6845 /* AlwaysConnected */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1CBD1AE02766006A6845 /* AppDelegate.swift */,
+				F51C1CBF1AE02766006A6845 /* ViewController.swift */,
+				F51C1CC11AE02766006A6845 /* Main.storyboard */,
+				F51C1CC41AE02766006A6845 /* Images.xcassets */,
+				F51C1CC61AE02766006A6845 /* LaunchScreen.xib */,
+				F51C1CBB1AE02766006A6845 /* Supporting Files */,
+				F51C1CDD1AE100E5006A6845 /* GetData.swift */,
+				F51C1CDF1AE119E6006A6845 /* DataStruct.swift */,
+				F51C1CE11AE12514006A6845 /* TimePickerViewController.swift */,
+				F51C1CE31AE12C70006A6845 /* SwipeBack.swift */,
+			);
+			path = AlwaysConnected;
+			sourceTree = "<group>";
+		};
+		F51C1CBB1AE02766006A6845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1CBC1AE02766006A6845 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F51C1CD01AE02766006A6845 /* AlwaysConnectedTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1CD31AE02766006A6845 /* AlwaysConnectedTests.swift */,
+				F51C1CD11AE02766006A6845 /* Supporting Files */,
+			);
+			path = AlwaysConnectedTests;
+			sourceTree = "<group>";
+		};
+		F51C1CD11AE02766006A6845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1CD21AE02766006A6845 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51C1CB71AE02766006A6845 /* AlwaysConnected */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51C1CD71AE02766006A6845 /* Build configuration list for PBXNativeTarget "AlwaysConnected" */;
+			buildPhases = (
+				F51C1CB41AE02766006A6845 /* Sources */,
+				F51C1CB51AE02766006A6845 /* Frameworks */,
+				F51C1CB61AE02766006A6845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlwaysConnected;
+			productName = AlwaysConnected;
+			productReference = F51C1CB81AE02766006A6845 /* AlwaysConnected.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F51C1CCC1AE02766006A6845 /* AlwaysConnectedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51C1CDA1AE02766006A6845 /* Build configuration list for PBXNativeTarget "AlwaysConnectedTests" */;
+			buildPhases = (
+				F51C1CC91AE02766006A6845 /* Sources */,
+				F51C1CCA1AE02766006A6845 /* Frameworks */,
+				F51C1CCB1AE02766006A6845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51C1CCF1AE02766006A6845 /* PBXTargetDependency */,
+			);
+			name = AlwaysConnectedTests;
+			productName = AlwaysConnectedTests;
+			productReference = F51C1CCD1AE02766006A6845 /* AlwaysConnectedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51C1CB01AE02766006A6845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F51C1CB71AE02766006A6845 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = UWTAA8VL2P;
+					};
+					F51C1CCC1AE02766006A6845 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F51C1CB71AE02766006A6845;
+					};
+				};
+			};
+			buildConfigurationList = F51C1CB31AE02766006A6845 /* Build configuration list for PBXProject "AlwaysConnected" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F51C1CAF1AE02766006A6845;
+			productRefGroup = F51C1CB91AE02766006A6845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51C1CB71AE02766006A6845 /* AlwaysConnected */,
+				F51C1CCC1AE02766006A6845 /* AlwaysConnectedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51C1CB61AE02766006A6845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1CC31AE02766006A6845 /* Main.storyboard in Resources */,
+				F51C1CC81AE02766006A6845 /* LaunchScreen.xib in Resources */,
+				F51C1CC51AE02766006A6845 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C1CCB1AE02766006A6845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51C1CB41AE02766006A6845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1CC01AE02766006A6845 /* ViewController.swift in Sources */,
+				F51C1CBE1AE02766006A6845 /* AppDelegate.swift in Sources */,
+				F51C1CDE1AE100E5006A6845 /* GetData.swift in Sources */,
+				F51C1CE41AE12C70006A6845 /* SwipeBack.swift in Sources */,
+				F51C1CE21AE12514006A6845 /* TimePickerViewController.swift in Sources */,
+				F51C1CE01AE119E6006A6845 /* DataStruct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C1CC91AE02766006A6845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1CD41AE02766006A6845 /* AlwaysConnectedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F51C1CCF1AE02766006A6845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51C1CB71AE02766006A6845 /* AlwaysConnected */;
+			targetProxy = F51C1CCE1AE02766006A6845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F51C1CC11AE02766006A6845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C1CC21AE02766006A6845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F51C1CC61AE02766006A6845 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C1CC71AE02766006A6845 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51C1CD51AE02766006A6845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F51C1CD61AE02766006A6845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51C1CD81AE02766006A6845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AlwaysConnected/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F51C1CD91AE02766006A6845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AlwaysConnected/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F51C1CDB1AE02766006A6845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlwaysConnectedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlwaysConnected.app/AlwaysConnected";
+			};
+			name = Debug;
+		};
+		F51C1CDC1AE02766006A6845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlwaysConnectedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlwaysConnected.app/AlwaysConnected";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51C1CB31AE02766006A6845 /* Build configuration list for PBXProject "AlwaysConnected" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C1CD51AE02766006A6845 /* Debug */,
+				F51C1CD61AE02766006A6845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51C1CD71AE02766006A6845 /* Build configuration list for PBXNativeTarget "AlwaysConnected" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C1CD81AE02766006A6845 /* Debug */,
+				F51C1CD91AE02766006A6845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51C1CDA1AE02766006A6845 /* Build configuration list for PBXNativeTarget "AlwaysConnectedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C1CDB1AE02766006A6845 /* Debug */,
+				F51C1CDC1AE02766006A6845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F51C1CB01AE02766006A6845 /* Project object */;
+}
